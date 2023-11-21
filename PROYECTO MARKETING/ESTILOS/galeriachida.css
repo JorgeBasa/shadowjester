@@ -1,0 +1,44 @@
+div {
+padding: 1.25%;
+}
+
+.galeriarancia{
+    display:inline-block;
+    list-style-type: none;
+    text-align: center;
+}
+
+.entidad{
+    /*text-align: center;*/
+    font-size: 18px;
+    max-width:30%;
+    display:inline-block;
+    padding: 1%;
+    
+}
+
+.Imagenchida{
+    max-width: 100%;
+}
+
+
+@media screen and (max-width:1060px){
+    .galeriarancia{
+        display:inline-block;
+        list-style-type: none;
+    }
+    
+    .entidad{
+        max-width:100%;
+        display:inline-block;
+        padding: 1%;
+    }
+
+    .Imagenchida{
+        max-width: 80%;
+    }
+    
+    div{
+        text-align: center;
+    }
+}

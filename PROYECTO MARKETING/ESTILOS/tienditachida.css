@@ -1,0 +1,29 @@
+.catalogo{
+    display:inline-block;
+    list-style-type: none;
+    text-align: center;
+}
+
+.producto{
+    display:inline-block;
+    max-width: 250px;
+    padding: 1%;
+    border-style:solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.cosoraro{
+    max-width: 100%;
+    margin-right: 5%;
+    border-radius: 5px;
+}
+
+.vermas{
+    margin-bottom: 10px;
+    border-style:ridge;
+    border-color: white;
+    border-width: 1px;
+    padding: 15px 35px;
+}
