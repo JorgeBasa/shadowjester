@@ -1,0 +1,36 @@
+.contento{
+    text-align:center;
+}
+
+#TheLogo{
+    max-width:35%;
+}
+
+.paywalls{
+    max-width: 25%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+.desc{
+    padding-left:10%;
+    padding-right:10%;
+    font-size: 20px;
+}
+
+@media screen and (max-width:1060px) {
+    #TheLogo{
+        max-width:45%;
+    }
+    
+    .paywalls{
+        max-width: 35%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+    }
+
+    .desc{
+        padding-left:10%;
+        padding-right:10%;
+        font-size: 18px;
+    }
+}

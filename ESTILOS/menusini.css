@@ -1,0 +1,129 @@
+.ultima{
+    display:inline-block;
+    list-style-type: none;
+    margin: auto;
+}
+
+.neta{
+    border-style:double;
+    display:inline-block;
+    border-color: white;
+    border-width: 1px;
+    margin:auto;
+    padding: 10px;
+}
+
+.reducto{
+    max-width: 49.5%;
+}
+
+.novia{
+    border-style:solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.lefty{
+    margin:auto;
+    float: left;
+    max-width: 400px;
+    min-height: 300px;
+}
+
+.righteous{
+    margin: auto;
+    text-align: center;
+    float:right;
+    max-width: 400px;
+    min-height: 400px;
+}
+
+#padme{
+    padding-left: 82.5px;
+    padding-right: 82.5px;
+}
+
+.catalogo{
+    display:inline-block;
+    list-style-type: none;
+    text-align: center;
+}
+
+.producto{
+    display:inline-block;
+    max-width: 250px;
+    padding: 1%;
+    border-style:solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.cosoraro{
+    max-width: 100%;
+    margin-right: 5%;
+    border-radius: 5px;
+}
+
+.vermas{
+    margin-bottom: 10px;
+    border-style:ridge;
+    border-color: white;
+    border-width: 1px;
+    padding: 15px 35px;
+}
+
+
+@media screen and (min-width: 1600px){
+    .lefty{
+        margin:auto;
+        float: left;
+        max-width: 450px;
+        min-height: 450px;
+    }
+    
+    .righteous{
+        margin: auto;
+        text-align: center;
+        float:right;
+        max-width: 450px;
+        min-height: 450px;
+    }
+    
+    #padme{
+        padding-left: 108px;
+        padding-right: 108px;
+    }
+    
+}
+
+@media screen and (max-width: 1360px){
+    .ultima{
+        display:inline-block;
+        list-style-type: none;
+    }
+    .neta{
+        border-style:double;
+        display: block;
+        border-color: white;
+        border-width: 1px;
+        margin:auto;
+        padding: auto;
+    }
+    .lefty{
+        margin:auto;
+        max-width: fit-content;
+    }
+    
+    .righteous{
+        margin: auto;
+        max-width: fit-content;
+    }
+    
+    #padme{
+        padding-left: 35.5%;
+        padding-right: 35.5%;
+    }
+    
+}

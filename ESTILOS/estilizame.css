@@ -1,0 +1,188 @@
+/*FUENTES CHIDAS*/
+/*@font-face {
+    font-family: PerpetualTLait;
+    src: url(/Fuentes/PERTILI.TTF);
+}
+
+@font-face{
+    font-family: PerpetualTBoru;
+    src:url(/Fuentes/PERTIBD.TTF);
+}
+
+@font-face{
+    font-family: PerpetualCommon;
+    src:url(/Fuentes/PER_____.TTF);
+}
+
+@font-face{
+    font-family: PerpetualBruh;
+    src:url(/Fuentes/PERB____.TTF);
+}
+
+@font-face{
+    font-family: PerpetualBrit;
+    src:url(/Fuentes/PERBI___.TTF);
+}
+
+@font-face{
+    font-family: PerpetualItai;
+    src:url(/Fuentes/PERI____.TTF);
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+/*--------------------------------------------------*/
+/*
+#algo = ID
+.curase = class
+* = TODOS
+*/
+
+html{
+    background-color: #161616;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+}
+
+body{
+    margin: auto;
+    background-color: #1e1e21;
+    color:white;
+    width: 70%;
+    /*align-self: center;*/;
+}
+
+header{
+    z-index: 10;
+    margin:auto;
+    padding:1%;
+    border-style: groove;
+    border-color: white;
+    border-width: 1px;
+}
+
+.container{
+    text-align: center;
+}
+
+#titulillo{
+    font-family: 'Playfair Display', serif;
+}
+
+#loginho{
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 15%;
+    padding-right: 2%;
+    height:auto;
+}
+
+.navBar{
+    overflow: hidden;
+    text-align: center;
+    border-style: groove;
+    border-color: white;
+    border-width: 1px;
+}
+
+#mainmenu{
+    display:inline;
+    list-style-type: none;
+}
+
+.botoncini{
+    font-family: 'Playfair Display', serif;
+    border-style:ridge;
+    border-color: white;
+    border-width: 1px;
+    padding: 15px 35px;
+    text-align: center;
+}
+
+.linky {
+    /*border-style: dashed;
+    border-color: white;
+    border-width: 1px;*/
+    display:inline-block;
+    padding:2px;
+}
+
+a{
+    color:white;
+    text-decoration:dashed;
+}
+
+footer{
+
+    text-align: center;
+    border-style: groove;
+    border-color: white;
+    border-width: 1px;
+}
+
+.waitnoise{
+    max-width:3%;
+}
+
+#feis{
+    max-width:1.75%;
+}
+
+
+
+@media screen and (max-width:1060px){
+    #titulillo{
+        font-family: 'Playfair Display', serif;
+        font-size:x-large;
+    }
+    
+    #loginho{
+        float:left;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 30%;
+        padding-right: 2%;
+        height:auto;
+    }
+}
+
+@media screen and (min-width:1600px){
+    #loginho{
+        float:left;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 14%;
+        padding-right: 2%;
+        height:auto;
+    }
+
+    .navBar{
+        overflow: hidden;
+        text-align: center;
+        border-style: groove;
+        border-color: white;
+        border-width: 1px;
+    }
+    
+    #mainmenu{
+        display:inline;
+        list-style-type: none;
+    }
+    
+    .botoncini{
+        font-family: 'Playfair Display', serif;
+        border-style:ridge;
+        border-color: white;
+        border-width: 1px;
+        padding: 15px 35px;
+        text-align: center;
+    }
+    
+    .linky {
+        /*border-style: dashed;
+        border-color: white;
+        border-width: 1px;*/
+        display:inline-block;
+        padding:2px;
+    }
+}
